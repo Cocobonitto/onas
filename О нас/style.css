@@ -1,0 +1,134 @@
+body{
+    text-indent: 0px;
+    background-color: #000000;
+}
+h1{
+    color:antiquewhite;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-top:100px;
+    margin:12px;
+}
+h2{
+    color:antiquewhite;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-top:10px;
+    margin:12px 
+}
+h3{
+    color:antiquewhite;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top:10px;
+    margin:12px 
+}
+h4{
+    color:antiquewhite;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top:10px;
+    margin:12px;
+}
+h5{
+    color:antiquewhite;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top:10px;
+    margin:12px;
+}
+h6{
+    color:antiquewhite;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top:10px;
+    margin:12px;
+}
+h7{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+}
+h8{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+}
+h9{
+    position: absolute;
+    top: 55%;
+    left: 84%; 
+}
+
+section {
+    background-color: rgb(51, 180, 174);
+    position: absolute;
+    min-height: 70vh;
+    width: 100%;
+    transform-style: inherit;
+    position: relative;
+   
+}
+   
+.block1 {
+    z-index: 2;
+    background-image: url(./images/1676645781_catherineasquithgallery-com-p-fon-abstraktsiya-sine-zelenii-37.jpg);
+   
+}
+   
+.block2::before {
+    background-color: rgb(12, 140, 145);
+    content: '';
+    top: 1; left: 1; right: 1; bottom: 1;
+    position: absolute;
+    display: block;
+    transform: translateZ(-.5px) scale(2);
+    z-index: -2;
+   
+background-size: cover;
+   
+}
+
+.blokZ {
+    background: #045858;
+    color: #fff;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    border:2px;
+    padding:30px;
+    margin:50px 20px 80px 150px;    
+    
+}
+
+.blokZ1 {
+    color: #fff;
+    background: #045858;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    border:2px;
+    padding:30px;
+    margin:50px 20px 80px 150px;  
+    position: absolute;
+    top: 295px;
+    left: 500px;
+    
+}
+
+.blokZ2 {
+    position:absolute;
+    color: #fff;
+    background: #045858;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    border:2px;
+    padding:30px;
+    margin:50px 20px 80px 150px;  
+    right: 250px;
+
+}
